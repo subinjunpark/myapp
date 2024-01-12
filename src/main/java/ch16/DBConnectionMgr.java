@@ -41,7 +41,7 @@ public class DBConnectionMgr {
     private String _driver = "oracle.jdbc.driver.OracleDriver",
         _url = "jdbc:oracle:thin:@localhost:1521:xe",
         _user = "webdb",
-        _password = "1234";
+        _password = "webdb";
     private boolean _traceOn = false;
     private boolean initialized = false;
     private int _openConnections = 10;
